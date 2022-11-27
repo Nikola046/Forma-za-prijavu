@@ -1,0 +1,74 @@
+body{
+    background-color: bisque;
+    font-size: 18px;
+}
+
+#div1{
+    height: 70px;
+    background-color: bisque;
+    font-size: 15px;
+}
+
+#naslov{
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    background-color: rgb(230, 205, 175);
+}
+
+#email_input{
+    width: 300px;
+}
+
+
+tr,th,td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+    background-color: azure;
+}
+
+th{
+    background-color: aquamarine;
+}
+
+th,td{
+    padding: 5px;
+}
+
+form{
+    margin-right: 500px;
+}
+
+#btnPosalji{
+    background-color: lightgreen;
+    color: black;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#btnPonisti{
+    background-color: rgb(255, 65, 65);
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+img{
+    margin-top: 9px;
+    margin-right: 0px;
+    width: 490px;
+    height: 648px;
+}
+
+@media only screen and (min-width: 768px){
+
+}

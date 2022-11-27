@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+
+    <div id="div1">
+        <h1 id="naslov">Prijava za školska takmičenja</h1>
+    </div>
+
+    
+
+    <form action="">
+        <fieldset>
+            <legend>Lični podaci</legend>
+
+            <label for="Ime">Ime: </label>
+            <input type="text" placeholder="Marko"> <br>
+            <br>
+            <label for="Prezime">Prezime: </label>
+            <input type="text" placeholder="Markovic"> <br>
+            <br>
+            <label for="Odeljenje">Odeljenje: </label>
+            <input type="text" placeholder="7-5"> <br>
+            <br>
+            <label for="E-mail">E-mail: </label>
+            <input type="text" placeholder="marko.markovic1@gmail.com" id="email_input"> <br>
+            <br>
+            <label for="BrojTelefona">Broj telefona:</label> 
+            <input type="text" placeholder="0601236547"> <br>
+            <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Izbor takmičenja</legend>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Vreme</th>
+                        <th>Naziv predmeta i kabinet</th>
+                        
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Ponedeljak  11:00-12:30</td>
+                        <td>Matematika   K-1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Utorak 12:00-13:30</td>
+                        <td>Informatika   K-15</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sreda  12:00-13:30</td>
+                        <td>Engleski jezik   K-6</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cetvrtak  11:30-13:00</td>
+                        <td>Istorija    K-11</td>
+                     </tr>
+
+                     <tr>
+                        <td>Petak   11:00-12:30</td>
+                        <td>Geografija    K-4</td>
+                     </tr>
+
+                </tbody>
+            </table>
+            <br>
+
+            <div id="div2">
+            <input type="checkbox">Matematika <br>
+            <input type="checkbox">Informatika <br>
+            <input type="checkbox">Engleski jezik <br>
+            <input type="checkbox">Istorija <br>
+            <input type="checkbox">Geografija <br>
+            </div>
+        </fieldset>
+
+        <br>
+
+        <textarea name="" id="textarea1" cols="60" rows="8" placeholder="Napomena / Predlog"></textarea>
+
+        <br>
+
+        <button id="btnPosalji" onclick="klik()">Pošalji</button>
+        <button id="btnPonisti">Poništi</button>
+    </form>
+
+    
+</body>
+</html>
